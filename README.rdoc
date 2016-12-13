@@ -1,28 +1,14 @@
-== README
+# Goat on a Mission
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a charitable site created and intended to help promote awareness of Huntington's Disease as well as numerous other charities. This is strictly a voluntary project, using my donated time. 
 
-Things you may want to cover:
+## Goal
 
-* Ruby version
+The goal of this project is to help the “mission” of Bella the goat and her “sisters” in their quest to bring smiles to those in need as well as bringing awareness to their charitable causes.
 
-* System dependencies
+## Join the mission
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is a very new project and as such is very fluid. The design and functionality is still being discussed and manipulated. Any assistance is appreciated, however we are not in a position to know what that help would entail yet.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Current Hrs Count: 3

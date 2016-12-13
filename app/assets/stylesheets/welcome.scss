@@ -1,0 +1,45 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.main-bg-color {
+  background: #EDE1D1;
+}
+
+.border {
+	background: #D2B48C;
+	position: fixed;
+
+	.left {
+    top: 0;
+    bottom: 0;
+    left: 0;
+		width: 15px;
+    background: #D2B48C;
+  }
+  .right {
+		top: 0;
+    bottom: 0;
+    right: 0;
+		width: 15px;
+    background: #D2B48C;
+		}
+	.top {
+    left: 0;
+    right: 0;
+    top: 0;
+		height: 15px;
+    background: #D2B48C;
+	}
+  .bottom {
+		left: 0;
+    right: 0;
+    bottom: 0;
+		height: 15px;
+    background: #D2B48C;
+	}
+}
+
+.style_image {
+  max-width: 600px;
+  max-height: 600px;
+}

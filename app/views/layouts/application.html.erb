@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GOAM</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="border">
+    <div class="border top">
+      <ul class="nav nav-tabs">
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Calendar", root_path %></li>
+        <li><%= link_to "Contact Us", root_path %></li>
+        <div class="pull-right donate">
+          <%= link_to "Donate to HDSA", 'https://interland3.donorperfect.net/weblink/weblink.aspx?name=E5596&id=1' , :target => "_blank", :class => 'navbar-link btn btn-primary' %>
+        </div>
+      </ul>
+    </div>
+      <div class="border bottom">
+        <div class="border left">
+          <div class="border right">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<%= yield %>
+
+</body>
+</html>

@@ -1,8 +1,5 @@
 Rails.application.routes.draw do
 
-
-  get 'contact/index'
-
   get 'calendar' => 'calendar#index'
 
   get 'contact' => 'contact#index'
